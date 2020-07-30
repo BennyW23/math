@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-    Usage:
-    Result:
+    Usage: ./mod_arithmetic.py {modulus} {value1} {value2}
+    Will calculate the sum, product mod the modulus
+    Will also find the inverse of both values given the modulus, or the GCD if it doesn't exist
+    If arguments aren't given on command line, will prompt input for them
 
     Modular arithmetic calculator based on Problem 0.3.16 of Dummit and Foote's Abstract Algebra
 """
