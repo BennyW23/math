@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 import sys
-import math
 
 if (len(sys.argv) != 3):
     print("Usage: logistic_map.py {r_value} {x_0}")
-    exit(0);
+    exit(0)
 
 r = float(sys.argv[1])
 x = float(sys.argv[2])
