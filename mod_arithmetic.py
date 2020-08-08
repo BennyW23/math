@@ -210,5 +210,5 @@ def calculate(value1, value2, modulus):
 
 
 if __name__ == "__main__":
-    # main()
-    test()
+    main()
+    # test()
