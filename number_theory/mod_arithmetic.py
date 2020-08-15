@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
     Usage: ./mod_arithmetic.py {modulus} {value1} {value2}
-    Will calculate the sum, product mod the modulus
+    Functions: mod(val, mod), add(val1, val2, mod), multiply(val1, val2, mod), gcd(val1, val2), inverse(val, mod)
+
+    When run as main, will calculate the sum, product mod the modulus
     Will also find the inverse of both values given the modulus, or the GCD if it doesn't exist
     If arguments aren't given on command line, will prompt input for them
 
